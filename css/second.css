@@ -1,0 +1,46 @@
+.center-block {
+	text-align: center;
+	margin-top: 48px;
+	margin-bottom: 64px;
+	line-height: 68px;
+}
+.zagolovok {
+	font-family: 'Neucha';
+	color: #5C4A4D;
+	font-size: 65px;
+}
+.select {
+	background: #F2ECE0;
+	border: none;
+	outline: none;
+	font-size: 16px;
+	width: 156px;
+	color: #716063;
+	font-family: 'Nunito';
+}
+option {
+	font-size: 13px;
+}
+@media (max-width: 990px) {
+	.bot-header {
+		border-bottom: 1px solid #E0DAD4;;
+	}
+	.zagolovok {
+		font-size: 43px;
+	}
+	.center-block {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 24px;
+		margin-bottom: 12px;
+	}
+}
+@media (max-width: 700px) {
+	.center-block {
+		flex-direction: column;
+		text-align: left;
+	}
+	.zagolovok {
+		margin-bottom: 16px;
+	}
+}

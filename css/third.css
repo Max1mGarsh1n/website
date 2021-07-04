@@ -1,0 +1,15 @@
+.favorite {
+	text-align: center;
+	font-size: 65px;
+	color: #5C4A4D;
+	margin-top: 48px;
+	margin-bottom: 64px;
+}
+
+@media (max-width: 990px) {
+	.favorite {
+		margin-top: 24px;
+		margin-bottom: 12px;
+		font-size: 43px;
+	}
+}
