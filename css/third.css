@@ -1,4 +1,4 @@
-.favorite {
+.zagolovok {
 	text-align: center;
 	font-size: 65px;
 	color: #5C4A4D;
@@ -7,7 +7,7 @@
 }
 
 @media (max-width: 990px) {
-	.favorite {
+	.zagolovok {
 		margin-top: 24px;
 		margin-bottom: 12px;
 		font-size: 43px;

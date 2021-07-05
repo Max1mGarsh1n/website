@@ -1,0 +1,245 @@
+input {
+	padding: 0;
+	background: none;
+}
+.order {
+	display: flex;
+	justify-content: space-between;
+	width: 944px;
+	margin: 0 auto;
+}
+.order-cards {
+	width: 410px;
+}
+.order-card {
+	border-top: 1px solid rgba(171, 168, 159, 0.18);
+	padding: 20px 0;
+	display: flex;
+}
+.href-order-card {
+	width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    background-position: center;
+    border-radius: 12px;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+.card-information {
+	max-width: 279px;
+}
+.name {
+	font-size: 19px;
+	color: #5C4A4D;
+	font-weight: 700;
+	line-height: 24px;
+	height: auto;
+}
+.base, .order-article {
+	font-size: 16px;
+    color: #AEA4A2;
+    font-weight: 700;
+    line-height: 20px;
+}
+.counter {
+	background: #FCFBF9;
+	padding: 10px 12px;
+	border-radius: 12px;
+	display: flex;
+    width: 92px;
+    justify-content: center;
+}
+.order-price {
+	color: #716063;
+	font-size: 19px;
+	font-weight: 700;
+}
+.card-information-counter-price {
+	width: 100%;
+	position: relative;
+}
+.counter-price {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 16px;
+}
+.close {
+	position: absolute;
+    right: 0;
+    top: 0;
+    width: 24px;
+    height: 24px;
+    opacity: 0.3;
+    cursor: pointer;
+}
+.close:before, .close:after {
+	position: absolute;
+    left: 11px;
+    content: ' ';
+    height: 24px;
+    width: 2px;
+    background-color: #AEA4A2;
+}
+.close:before {
+	transform: rotate(45deg);
+}
+.close:after {
+	transform: rotate(-45deg);
+}
+.weight-base-article-no1 {
+	display: none;
+}
+.order-form {
+	width: 452px;
+	border-top: 1px solid rgba(171, 168, 159, 0.18);
+	padding-top: 24px;
+}
+.nazvanie {
+	font-size: 23px;
+	color: #5C4A4D;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+.box {
+	border-radius: 16px;
+	background: #FCFBF9;
+	width: 100%;
+	padding: 12px 20px;
+	height: 68px;
+	margin: 20px 0;
+}
+.box-nazvanie {
+	font-size: 16px;
+	font-weight: 700;
+	color: #AEA4A2;
+}
+.box-input {
+	font-size: 19px;
+	color: #5C4A4D;
+	font-weight: 700;
+	border: none;
+}
+.nazvanie-class {
+	margin-top: 32px;
+}
+.box-option, .box-select {
+	border: none;
+	color: #5C4A4D;
+	font-size: 19px;
+	font-weight: 700;
+	background: none;
+	margin-left: -4px;
+}
+.double-box {
+	border-radius: 16px;
+	background: #FCFBF9;
+	width: 100%;
+	padding: 12px 20px;
+	height: 169px;
+	margin: 20px 0;
+}
+.box-label, .item, .cost {
+	font-size: 19px;
+	color: #5C4A4D;
+	font-weight: 700;
+	cursor: pointer;
+}
+.hint, .item-price {
+	color: #AEA4A2;
+	font-size: 19px;
+	font-weight: 700;
+	padding-left: 20px;
+}
+.line {
+	width: 100%;
+	height: 1px;
+	background: rgba(171, 168, 159, 0.18);
+	margin: 16px 0;
+}
+.horizontal-box {
+	display: flex;
+	justify-content: space-between;
+}
+.short-box {
+	width: 216px;
+	background: #FCFBF9;
+	padding: 12px 20px;
+	border-radius: 16px;
+}
+.total {
+	padding: 20px;
+	background: #FCFBF9;
+	border-radius: 16px 16px 0px 0px;
+}
+.box-total {
+	display: flex;
+	justify-content: space-between;
+	margin: 4px 0;
+}
+.item {
+	color: #716063;
+}
+.cost, .item {
+	cursor: default;
+}
+.checkout {
+	background: #92525D;
+	height: 56px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 0px 0px 16px 16px;
+}
+.btn-checkout {
+	color: #FCFBF9;
+	font-size: 19px;
+	font-weight: 700;
+}
+.footer {
+	margin-top: 149px;
+}
+.small-box {
+	position: relative;
+}
+.small-box input[type=radio] {
+	display: none;
+}
+.small-box label {
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	padding-left: 25px;
+	margin-right: 0;
+	line-height: 18px;
+	user-select: none;
+}
+.small-box label::before {
+	content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    border-radius: 50%;
+    border: 2px solid #AEA4A2;
+}
+.small-box input[type=radio]:checked + label:before {
+	border-radius: 50%;
+	border: 2px solid #EA854F;
+}
+.small-box input[type=radio]:checked + label:after {
+	width: 10px;
+	height: 10px;
+	background: #EA854F;
+	border-radius: 50%;
+	content: "";
+    display: block;
+    position: absolute;
+    top: 10%;
+    left: 6px;
+   	
+}
