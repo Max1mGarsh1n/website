@@ -140,6 +140,9 @@ input {
 	padding: 12px 20px;
 	height: 169px;
 	margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .box-label, .item, .cost {
 	font-size: 19px;
@@ -151,7 +154,7 @@ input {
 	color: #AEA4A2;
 	font-size: 19px;
 	font-weight: 700;
-	padding-left: 20px;
+	padding-left: 30px;
 }
 .line {
 	width: 100%;
@@ -211,19 +214,17 @@ input {
 	display: inline-block;
 	cursor: pointer;
 	position: relative;
-	padding-left: 25px;
-	margin-right: 0;
+	padding-left: 30px;
 	line-height: 18px;
-	user-select: none;
 }
-.small-box label::before {
+.small-box label:before {
 	content: "";
     display: inline-block;
     width: 18px;
     height: 18px;
     position: absolute;
     left: 0;
-    bottom: 0px;
+    bottom: -2px;
     border-radius: 50%;
     border: 2px solid #AEA4A2;
 }
@@ -239,7 +240,7 @@ input {
 	content: "";
     display: block;
     position: absolute;
-    top: 10%;
+    top: 4px;
     left: 6px;
    	
 }
