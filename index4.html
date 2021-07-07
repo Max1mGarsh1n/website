@@ -3,6 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-select.min.css">
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/product.css">
@@ -10,7 +12,7 @@
 </head>
 <body class="body">
 	<div class="parent">
-		<header>
+		<header class="header">
 			<div class="top-header">
 				<a class="top-left-header" href="#">
 					О Бисквите
@@ -59,7 +61,7 @@
 						</div>
 					</a>
 				</div>
-				<a class="menu" href="#">
+				<a class="menu" href="#" id="menu">
 					Меню
 					<div class="burger">
 						<div class="polosa"></div>
@@ -94,7 +96,7 @@
 					</div>
 					<div class="list list-base">
 						Основа торта
-						<select class="cake-select">
+						<select class="cake-select selectpicker">
 							<option class="option-list">
 								Вечерний Смоленск
 							</option>
@@ -140,7 +142,7 @@
 					</a>
 				</div>
 
-				<div class="polosa"></div>
+				<div class="horizontal-line"></div>
 
 				<div class="product-info">
 					Доставка от 4-х дней
@@ -156,9 +158,9 @@
 					Углеводы — 30,8 г.<br>
 					Энергетическая ценность — 240 ккал<br>
 					Вес — 85 г.
-					<div class="article">
-						Артикул — bs0012932
-					</div>
+					<br>
+					<br>
+					Артикул — bs0012932
 				</div>
 			</div>
 		</div>
@@ -168,5 +170,12 @@
 		</footer>
 
 	</div>	
+
+	<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="js/popper.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap-select.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+
 </body>
 </html>

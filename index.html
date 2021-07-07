@@ -10,7 +10,7 @@
 </head>
 <body class="body">
 	<div class="parent">
-		<header>
+		<header class="header">
 			<div class="top-header">
 				<a class="top-left-header" href="#">
 					О Бисквите
@@ -59,7 +59,7 @@
 						</div>
 					</a>
 				</div>
-				<a class="menu" href="#">
+				<a class="menu" href="#" id="menu">
 					Меню
 					<div class="burger">
 						<div class="polosa"></div>
@@ -70,9 +70,9 @@
 			</div>
 		</header>
 
-		<div class="legs"></div>
+		<a class="legs" href="#"></a>
 
-		<main>
+		<main class="main">
 			<div class="card" href="#">
 				<a class="cake" href="#" style="background-image: url(pictures/cake-1.png);"></a>
 				<div class="info">
@@ -385,6 +385,52 @@
 				</div>
 			</div>
 		</main>
+
+		<div class="parent-menu" id="parent-menu">
+			<div class="menu-block">
+				<ul class="menu-ul">
+					<li class="menu-li">
+						<a class="href-menu-li" href="index.html">
+							Главная
+						</a>
+					</li>
+					<li class="menu-li">
+						<a class="href-menu-li" href="index2.html">
+							Вторая
+						</a>
+					</li>
+					<li class="menu-li">
+						<a class="href-menu-li" href="index3.html">
+							Избранное
+						</a>
+					</li>
+					<li class="menu-li">
+						<a class="href-menu-li" href="index4.html">
+							Торт
+						</a>
+					</li>
+					<li class="menu-li">
+						<a class="href-menu-li" href="index5.html">
+							Ваш заказ
+						</a>
+					</li>
+					<li class="menu-li">
+						<a class="href-menu-li" href="index6.html">
+							Личный кабинет
+						</a>
+					</li>
+				</ul>
+				<div class="close-menu" id="close">
+					<img class="close-png" src="pictures/close.png">
+				</div>
+			</div>
+		</div>
+
 	</div>
+
+	<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+
+
 </body>
 </html>

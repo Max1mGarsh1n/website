@@ -1,3 +1,6 @@
+a {
+	text-decoration: none;
+}
 .center-block {
 	text-align: center;
 	margin-top: 48px;
@@ -17,6 +20,7 @@
 	width: 156px;
 	color: #716063;
 	font-family: 'Nunito';
+	font-weight: 700;
 }
 option {
 	font-size: 13px;
@@ -43,4 +47,18 @@ option {
 	.zagolovok {
 		margin-bottom: 16px;
 	}
+}
+.selectpicker {
+	display: block!important;
+}
+.bootstrap-select>select.bs-select-hidden, select.bs-select-hidden, select.selectpicker {
+	display: block;
+	background: #F2ECE0;
+	border: none;
+	outline: none;
+	font-size: 16px;
+	width: 156px;
+	color: #716063;
+	font-family: 'Nunito';
+	font-weight: 700;
 }

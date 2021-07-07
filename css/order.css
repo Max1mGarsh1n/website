@@ -45,10 +45,10 @@ input {
 }
 .counter {
 	background: #FCFBF9;
-	padding: 10px 12px;
 	border-radius: 12px;
 	display: flex;
     width: 92px;
+    height: 40px;
     justify-content: center;
 }
 .order-price {
@@ -106,7 +106,6 @@ input {
 .box {
 	border-radius: 16px;
 	background: #FCFBF9;
-	width: 100%;
 	padding: 12px 20px;
 	height: 68px;
 	margin: 20px 0;
@@ -124,6 +123,9 @@ input {
 }
 .nazvanie-class {
 	margin-top: 32px;
+}
+.box-select {
+	width: 100%;
 }
 .box-option, .box-select {
 	border: none;
@@ -244,3 +246,48 @@ input {
     left: 6px;
    	
 }
+
+@media (max-width: 990px) {
+	.order {
+		flex-direction: column;
+		width: 680px;
+	}
+	.order-cards, .order-form {
+		width: 100%;
+	}
+	.zagolovok {
+		text-align: left;
+		margin-bottom: 24px;
+	}
+}
+
+@media (max-width: 700px) {
+	.order {
+		width: 340px;
+	}
+	.name {
+		width: 200px;
+	}
+	.horizontal-box {
+		flex-direction: column;
+	}
+	.short-box {
+		width: 100%;
+	}
+	.short-box-adaptive {
+		margin-bottom: 20px;
+	}
+	.hint-adaptive {
+		display: none;
+	}
+	.double-box-adaptive {
+		height: 108px;
+		justify-content: space-around;
+	}
+	.double-box {
+		justify-content: space-around;
+	}
+	.line-adaptive {
+		display: none;
+	}
+}	

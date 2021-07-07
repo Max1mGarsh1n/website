@@ -12,7 +12,7 @@
 </head>
 <body class="body">
 	<div class="parent">
-		<header>
+		<header class="header">
 			<div class="top-header">
 				<a class="top-left-header" href="#">
 					О Бисквите
@@ -98,9 +98,7 @@
 							</div>
 						</div>
 						<div class="counter-price">
-							<div class="counter">
-								+ 1 -
-							</div>
+							<div class="counter"></div>
 							<div class="order-price">
 								5 500 ₱
 							</div>
@@ -128,9 +126,7 @@
 							</div>
 						</div>
 						<div class="counter-price">
-							<div class="counter">
-								+ 1 -
-							</div>
+							<div class="counter"></div>
 							<div class="order-price">
 								15 500 ₱
 							</div>
@@ -158,9 +154,7 @@
 							</div>
 						</div>
 						<div class="counter-price">
-							<div class="counter">
-								+ 1 -
-							</div>
+							<div class="counter"></div>
 							<div class="order-price">
 								5 500 ₱
 							</div>
@@ -213,7 +207,7 @@
 							150 ₱
 						</div>
 					</div>
-					<div class="line"></div>
+					<div class="line line-adaptive"></div>
 					<div class="small-box">
 						<input class="box-radio" type="radio" id="second-box-radio" name="radio-first"><label class="box-label" for="second-box-radio">Самовывоз из кондитерской</label>
 						<div class="hint">
@@ -228,7 +222,7 @@
 					<input class="box-input" type="text" value="Гагарина 14/2, кв. 20">
 				</div>
 				<div class="horizontal-box">
-					<div class="short-box">
+					<div class="short-box short-box-adaptive">
 						<div class="box-nazvanie">
 							Дата получения
 						</div>
@@ -252,17 +246,17 @@
 				<div class="nazvanie nazvanie-class">
 					Способ оплаты
 				</div>
-				<div class="double-box">
+				<div class="double-box double-box-adaptive">
 					<div class="small-box">
 						<input class="box-radio" type="radio" id="third-box-radio" name="radio-second"><label class="box-label" for="third-box-radio">Картой онлайн</label>
-						<div class="hint">
+						<div class="hint hint-adaptive">
 							Безопасно через Сбербанк
 						</div>
 					</div>
-					<div class="line"></div>
+					<div class="line line-adaptive"></div>
 					<div class="small-box">
 						<input class="box-radio" type="radio" id="four-box-radio" name="radio-second"><label class="box-label" for="four-box-radio">При получении</label>
-						<div class="hint">
+						<div class="hint hint-adaptive">
 							Наличными курьеру или в кондитерской
 						</div>
 					</div>
@@ -279,46 +273,48 @@
 					</div>
 					<input class="box-input" type="text" value="">
 				</div>
-				<div class="total">
-					<div class="box-total">
-						<div class="item">
-							Товары
+				<div class="total-checkout">
+					<div class="total">
+						<div class="box-total">
+							<div class="item">
+								Товары
+							</div>
+							<div class="item-price">
+								246 ₱
+							</div>
 						</div>
-						<div class="item-price">
-							246 ₱
+						<div class="box-total">
+							<div class="item">
+								Доставка
+							</div>
+							<div class="item-price">
+								150 ₱
+							</div>
+						</div>
+						<div class="box-total">
+							<div class="item">
+								Скидка
+							</div>
+							<div class="item-price">
+								1500 ₱
+							</div>
+						</div>
+						<div class="line"></div>
+						<div class="box-total">
+							<div class="cost">
+								Общая стоимость
+							</div>
+							<div class="cost">
+								2500 ₱
+							</div>
 						</div>
 					</div>
-					<div class="box-total">
-						<div class="item">
-							Доставка
+					<a href="#" class="checkout">
+						<div class="btn-checkout">
+							Оформить заказ
 						</div>
-						<div class="item-price">
-							150 ₱
-						</div>
-					</div>
-					<div class="box-total">
-						<div class="item">
-							Скидка
-						</div>
-						<div class="item-price">
-							1500 ₱
-						</div>
-					</div>
-					<div class="line"></div>
-					<div class="box-total">
-						<div class="cost">
-							Общая стоимость
-						</div>
-						<div class="cost">
-							2500 ₱
-						</div>
-					</div>
+					</a>
 				</div>
-				<a href="#" class="checkout">
-					<div class="btn-checkout">
-						Оформить заказ
-					</div>
-				</a>
 			</div>
 		</div>
 

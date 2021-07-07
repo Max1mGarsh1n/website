@@ -99,10 +99,11 @@ ul {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-image: url(../pictures/legs-desktop.png);
+	display: block;
 }
 
 
-main {
+.main {
 	margin-left: -20px;
 	display: flex;
 	flex-wrap: wrap;
@@ -133,12 +134,12 @@ main {
 	display: flex;
 	align-items: center;
 	margin-bottom: 6px;
+	overflow: hidden;
 }
 .price {
 	color: #5C4A4D;
 	font-size: 23px;
 	font-weight: 700;
-	max-width: 207px;
 }
 .vert-line {
 	height: 16px;
@@ -157,7 +158,8 @@ main {
 	font-weight: 700;
 	height: 55px;
 	overflow: hidden;
-	display: inline-block;
+	display: block;
+	margin-bottom: 20px;
 }
 
 .btns {
@@ -201,7 +203,7 @@ main {
 	.card {
 		width: 288px;
 	}
-	main {
+	.main {
 		width: 984px;
 	}
 }
@@ -247,7 +249,7 @@ main {
 		border-radius: 8px;
 		margin: 4px 0;
 	}
-	main {
+	.main {
 		margin-left: -12px;
 		width: 704px;
 	}
@@ -281,4 +283,64 @@ main {
 	font-weight: 700;
 	display: flex;
 	justify-content: center;
+}
+
+
+.openMenu {
+	overflow: hidden;
+}
+.parent-menu {
+	display: none;
+}
+.active {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 9999999;
+    background: #fff;
+}
+.close-menu {
+	position: absolute;
+	outline: none;
+	background: #FFFFFF;
+	box-shadow: 0px 10px 24px rgba(24, 79, 119, 0.5);
+	border: none;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	right: 15px;
+	top: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.close-png {
+	width: 12px;
+}
+.menu-block {
+	width: 300px;
+	height: 230px;
+	overflow: hidden;
+	background: #1f547b;
+	border-radius: 12px;
+	padding: 20px;
+	overflow-y: auto;
+}
+.href-menu-li {
+	color: #fff;
+	font-size: 23px;
+}
+.selectpicker {
+	color: #5C4A4D;
+    font-size: 19px;
+    font-weight: 700;
+    border: none;
+    background: none;
+    outline: none;
 }
